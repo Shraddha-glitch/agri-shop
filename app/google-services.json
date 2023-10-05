@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "332045328244",
+    "project_id": "agri-shop-app-88564",
+    "storage_bucket": "agri-shop-app-88564.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332045328244:android:5562ebd023009aaa53d621",
+        "android_client_info": {
+          "package_name": "com.example.agrishopapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332045328244-9mvphf99nr304eig47l1hc0m82f3rfe5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKotKMBdBNKSgWOHciVp3hvx8CTVXJUkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332045328244-9mvphf99nr304eig47l1hc0m82f3rfe5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

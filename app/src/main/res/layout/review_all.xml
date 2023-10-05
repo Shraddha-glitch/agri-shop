@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:padding="5dp">
+
+      <TextView
+          android:id="@+id/view_name"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:fontFamily="@font/open_sans"
+          android:text="Name"
+          android:textSize="19sp"
+          android:textStyle="bold"/>
+
+      <TextView
+          android:id="@+id/address"
+          android:layout_width="190dp"
+          android:layout_height="wrap_content"
+          android:ellipsize="end"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Address" />
+      <TextView
+          android:id="@+id/review"
+          android:layout_width="190dp"
+          android:layout_height="wrap_content"
+          android:ellipsize="end"
+          android:maxLines="1"
+          android:singleLine="true"
+          android:text="Review" />
+
+   </LinearLayout>
+
+</androidx.cardview.widget.CardView>

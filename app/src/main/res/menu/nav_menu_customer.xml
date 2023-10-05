@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/nav_home"
+            android:title="@string/home"/>
+
+        <item android:id="@+id/nav_product"
+            android:icon="@drawable/nav_category"
+            android:title="Products"/>
+
+        <item android:id="@+id/nav_category"
+            android:icon="@drawable/nav_product"
+            android:title="Category"/>
+
+
+        <item android:id="@+id/nav_myorder"
+            android:icon="@drawable/nav_myorder"
+            android:title="My Order"/>
+
+        <item android:id="@+id/nav_cart"
+            android:icon="@drawable/nav_cart"
+            android:title="My Cart"/>
+
+        <item android:id="@+id/nav_myfavourite"
+            android:icon="@drawable/nav_myfavourite"
+            android:title="My Favourite"/>
+
+        <item android:id="@+id/nav_setting"
+            android:icon="@drawable/nav_setting"
+            android:title="Setting"/>
+
+        <item android:id="@+id/nav_about"
+            android:icon="@drawable/nav_about"
+            android:title="About US"/>
+    </group>
+    <item
+        android:title="logout">
+        <menu>
+
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/nav_logout"
+            android:title="Logout"/>
+        </menu>
+    </item>
+</menu>

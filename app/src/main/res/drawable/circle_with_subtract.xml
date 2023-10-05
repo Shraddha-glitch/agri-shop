@@ -1,0 +1,6 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/circle_background" />
+    <item
+        android:drawable="@drawable/subtract_icon"
+        android:gravity="center" />
+</layer-list>

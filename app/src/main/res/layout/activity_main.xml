@@ -1,0 +1,85 @@
+<!-- welcome_screen.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome_bg">
+
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/welcome_bg" />
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/rounded_white_button"
+        android:scaleType="centerInside"
+        android:src="@drawable/app_logo" />
+
+    <!-- Logo Label -->
+    <TextView
+        android:id="@+id/logo_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Agri Shop App"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/shop_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_label"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:text="Shop, save time, and enjoy fresh fruits and vegetables"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#292E32"/>
+
+    <!-- The best shop app in town for daily fresh fruits and vegetables -->
+    <TextView
+        android:id="@+id/best_shop_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shop_description"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:text="The best shop app for daily fresh fruits and vegetables"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <!-- Shop Now Button -->
+    <Button
+        android:id="@+id/shop_now_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/best_shop_app"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="loginButtonClick"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="12dp"
+        android:text="Shop Now"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
